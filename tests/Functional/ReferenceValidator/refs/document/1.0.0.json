@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "Документы для сделок",
+  "definitions": {
+    "sale": {
+      "type": "integer",
+      "title": "Документы для Выкупа",
+      "oneOf": [
+        {"enum": [1], "title": "Кредитный договор / займ"},
+        {"enum": [2], "title": "Остаток долга по кредиту"},
+        {"enum": [3], "title": "Подтверждение погашения ипотеки"},
+        {"enum": [4], "title": "Паспорт"},
+        {"enum": [5], "title": "Договор долевого участия"}
+      ]
+    },
+    "objectTest": {
+      "type": "object",
+      "required": [
+        "foo1",
+        "foo2",
+        "foo3"
+      ],
+      "properties": {
+        "foo1": {
+          "type": "integer"
+        },
+        "foo2": {
+          "type": "integer"
+        },
+        "foo3": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
