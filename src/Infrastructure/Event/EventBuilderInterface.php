@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Anemaloy\KafkaLocator\Infrastructure\Event;
 
-use Temo\KafkaLocator\Domain\EventInterface;
-use Temo\KafkaLocator\Infrastructure\Event\Exception\InvalidEventFormatException;
+use Anemaloy\KafkaLocator\Domain\EventInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Event\Exception\InvalidEventFormatException;
 
 interface EventBuilderInterface
 {

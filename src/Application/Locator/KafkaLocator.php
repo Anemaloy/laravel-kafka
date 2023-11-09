@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Application\Locator;
+namespace Anemaloy\KafkaLocator\Application\Locator;
 
-use Temo\KafkaLocator\Application\Builder;
+use Anemaloy\KafkaLocator\Application\Builder;
 
 final class KafkaLocator extends AbstractKafkaLocator
 {

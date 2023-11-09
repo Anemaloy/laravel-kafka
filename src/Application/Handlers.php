@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Application;
+namespace Anemaloy\KafkaLocator\Application;
 
-use Temo\KafkaLocator\Infrastructure\Event\EventBuilderInterface;
-use Temo\KafkaLocator\Infrastructure\Event\EventValidatorInterface;
-use Temo\KafkaLocator\Infrastructure\Event\Exception\InvalidEventFormatException;
-use Temo\KafkaLocator\Infrastructure\Queue\ConsumerProviderInterface;
-use Temo\KafkaLocator\Infrastructure\Queue\Exception\ConsumerException;
-use Temo\KafkaLocator\Infrastructure\Schema\SchemaManagerInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Event\EventBuilderInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Event\EventValidatorInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Event\Exception\InvalidEventFormatException;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\ConsumerProviderInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\Exception\ConsumerException;
+use Anemaloy\KafkaLocator\Infrastructure\Schema\SchemaManagerInterface;
 
 final class Handlers
 {

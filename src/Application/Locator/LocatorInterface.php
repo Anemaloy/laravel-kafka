@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Application\Locator;
+namespace Anemaloy\KafkaLocator\Application\Locator;
 
-use Temo\KafkaLocator\Application\Events;
-use Temo\KafkaLocator\Application\Handlers;
+use Anemaloy\KafkaLocator\Application\Events;
+use Anemaloy\KafkaLocator\Application\Handlers;
 
 interface LocatorInterface
 {

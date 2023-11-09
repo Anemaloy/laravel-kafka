@@ -1,10 +1,10 @@
 <?php
 
-namespace Temo\KafkaLocator\Commands\Changelog;
+namespace Anemaloy\KafkaLocator\Commands\Changelog;
 
-use Temo\KafkaLocator\Infrastructure\Schema\DirectoryLoader;
-use Temo\KafkaLocator\Infrastructure\Schema\EventInfo\EventInfo;
-use Temo\KafkaLocator\Infrastructure\Schema\EventInfo\EventInfoReference;
+use Anemaloy\KafkaLocator\Infrastructure\Schema\DirectoryLoader;
+use Anemaloy\KafkaLocator\Infrastructure\Schema\EventInfo\EventInfo;
+use Anemaloy\KafkaLocator\Infrastructure\Schema\EventInfo\EventInfoReference;
 
 class ChangeLogService
 {

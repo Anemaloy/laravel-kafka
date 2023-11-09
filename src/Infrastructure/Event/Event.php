@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Infrastructure\Event;
+namespace Anemaloy\KafkaLocator\Infrastructure\Event;
 
-use Temo\KafkaLocator\Domain\EventInterface;
+use Anemaloy\KafkaLocator\Domain\EventInterface;
 
 final class Event implements EventInterface
 {

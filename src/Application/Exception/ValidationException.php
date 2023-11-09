@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Application\Exception;
+namespace Anemaloy\KafkaLocator\Application\Exception;
 
 use Opis\JsonSchema\ValidationResult;
 use Throwable;

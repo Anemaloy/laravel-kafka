@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Infrastructure\Event;
+namespace Anemaloy\KafkaLocator\Infrastructure\Event;
 
 use Opis\JsonSchema\ValidationResult;
 

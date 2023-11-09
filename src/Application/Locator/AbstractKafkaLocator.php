@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Application\Locator;
+namespace Anemaloy\KafkaLocator\Application\Locator;
 
-use Temo\KafkaLocator\Application\Builder;
-use Temo\KafkaLocator\Application\Events;
-use Temo\KafkaLocator\Application\Handlers;
-use Temo\KafkaLocator\Infrastructure\Queue\RdKafka\Factory;
-use Temo\KafkaLocator\Infrastructure\Schema\SchemaManager;
+use Anemaloy\KafkaLocator\Application\Builder;
+use Anemaloy\KafkaLocator\Application\Events;
+use Anemaloy\KafkaLocator\Application\Handlers;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\RdKafka\Factory;
+use Anemaloy\KafkaLocator\Infrastructure\Schema\SchemaManager;
 
 abstract class AbstractKafkaLocator implements LocatorInterface
 {

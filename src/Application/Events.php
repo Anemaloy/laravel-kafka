@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Application;
+namespace Anemaloy\KafkaLocator\Application;
 
-use Temo\KafkaLocator\Application\Exception\ValidationException;
-use Temo\KafkaLocator\Domain\EventEmitterInterface;
-use Temo\KafkaLocator\Domain\EventInterface;
-use Temo\KafkaLocator\Infrastructure\DateTime\DateTimeFactoryInterface;
-use Temo\KafkaLocator\Infrastructure\Event\EventBuilderInterface;
-use Temo\KafkaLocator\Infrastructure\Event\EventValidatorInterface;
+use Anemaloy\KafkaLocator\Application\Exception\ValidationException;
+use Anemaloy\KafkaLocator\Domain\EventEmitterInterface;
+use Anemaloy\KafkaLocator\Domain\EventInterface;
+use Anemaloy\KafkaLocator\Infrastructure\DateTime\DateTimeFactoryInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Event\EventBuilderInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Event\EventValidatorInterface;
 
 final class Events
 {

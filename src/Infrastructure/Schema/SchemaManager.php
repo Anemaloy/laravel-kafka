@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Infrastructure\Schema;
+namespace Anemaloy\KafkaLocator\Infrastructure\Schema;
 
 use Opis\JsonSchema\ISchema;
 use Opis\JsonSchema\ISchemaLoader;

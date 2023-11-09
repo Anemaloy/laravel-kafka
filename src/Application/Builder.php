@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Application;
+namespace Anemaloy\KafkaLocator\Application;
 
-use Temo\KafkaLocator\Domain\EventEmitterInterface;
-use Temo\KafkaLocator\Infrastructure\DateTime\CurrentDateTime;
-use Temo\KafkaLocator\Infrastructure\DateTime\DateTimeFactoryInterface;
-use Temo\KafkaLocator\Infrastructure\Event\EventBuilder;
-use Temo\KafkaLocator\Infrastructure\Event\EventBuilderInterface;
-use Temo\KafkaLocator\Infrastructure\Event\EventEmitter;
-use Temo\KafkaLocator\Infrastructure\Event\EventValidator;
-use Temo\KafkaLocator\Infrastructure\Event\EventValidatorInterface;
-use Temo\KafkaLocator\Infrastructure\Queue\ConsumerProviderInterface;
-use Temo\KafkaLocator\Infrastructure\Queue\ProducerProviderInterface;
-use Temo\KafkaLocator\Infrastructure\Schema\SchemaManager;
-use Temo\KafkaLocator\Infrastructure\Schema\SchemaManagerInterface;
+use Anemaloy\KafkaLocator\Domain\EventEmitterInterface;
+use Anemaloy\KafkaLocator\Infrastructure\DateTime\CurrentDateTime;
+use Anemaloy\KafkaLocator\Infrastructure\DateTime\DateTimeFactoryInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Event\EventBuilder;
+use Anemaloy\KafkaLocator\Infrastructure\Event\EventBuilderInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Event\EventEmitter;
+use Anemaloy\KafkaLocator\Infrastructure\Event\EventValidator;
+use Anemaloy\KafkaLocator\Infrastructure\Event\EventValidatorInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\ConsumerProviderInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\ProducerProviderInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Schema\SchemaManager;
+use Anemaloy\KafkaLocator\Infrastructure\Schema\SchemaManagerInterface;
 
 final class Builder
 {

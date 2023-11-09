@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Anemaloy\KafkaLocator\Infrastructure\Queue\RdKafka;
 
-use Temo\KafkaLocator\Domain\EventInterface;
-use Temo\KafkaLocator\Infrastructure\Queue\Exception\ProducerException;
-use Temo\KafkaLocator\Infrastructure\Queue\ProducerInterface;
-use Temo\KafkaLocator\Infrastructure\Queue\ProducerProviderInterface;
+use Anemaloy\KafkaLocator\Domain\EventInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\Exception\ProducerException;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\ProducerInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\ProducerProviderInterface;
 use RdKafka\Producer as KafkaProducer;
 
 final class ProducerProvider implements ProducerProviderInterface

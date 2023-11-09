@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Infrastructure\Event;
+namespace Anemaloy\KafkaLocator\Infrastructure\Event;
 
-use Temo\KafkaLocator\Domain\EventEmitterInterface;
-use Temo\KafkaLocator\Domain\EventInterface;
-use Temo\KafkaLocator\Infrastructure\Queue\Exception\ProducerException;
-use Temo\KafkaLocator\Infrastructure\Queue\ProducerProviderInterface;
+use Anemaloy\KafkaLocator\Domain\EventEmitterInterface;
+use Anemaloy\KafkaLocator\Domain\EventInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\Exception\ProducerException;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\ProducerProviderInterface;
 
 final class EventEmitter implements EventEmitterInterface
 {

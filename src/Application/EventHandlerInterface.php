@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Application;
+namespace Anemaloy\KafkaLocator\Application;
 
-use Temo\KafkaLocator\Domain\EventInterface;
+use Anemaloy\KafkaLocator\Domain\EventInterface;
 
 interface EventHandlerInterface
 {

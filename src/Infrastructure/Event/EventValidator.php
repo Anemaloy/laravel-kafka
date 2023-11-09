@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Infrastructure\Event;
+namespace Anemaloy\KafkaLocator\Infrastructure\Event;
 
 use Opis\JsonSchema\ISchema;
 use Opis\JsonSchema\ValidationResult;
@@ -11,8 +11,8 @@ use OpisErrorPresenter\Implementation\MessageFormatterFactory;
 use OpisErrorPresenter\Implementation\PresentedValidationErrorFactory;
 use OpisErrorPresenter\Implementation\Strategies\BestMatchError;
 use OpisErrorPresenter\Implementation\ValidationErrorPresenter;
-use Temo\KafkaLocator\Domain\EventInterface;
-use Temo\KafkaLocator\Infrastructure\Schema\SchemaManagerInterface;
+use Anemaloy\KafkaLocator\Domain\EventInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Schema\SchemaManagerInterface;
 
 final class EventValidator implements EventValidatorInterface
 {

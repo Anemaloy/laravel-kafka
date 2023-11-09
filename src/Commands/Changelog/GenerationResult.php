@@ -1,6 +1,6 @@
 <?php
 
-namespace Temo\KafkaLocator\Commands\Changelog;
+namespace Anemaloy\KafkaLocator\Commands\Changelog;
 
 class GenerationResult
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Domain;
+namespace Anemaloy\KafkaLocator\Domain;
 
 interface EventEmitterInterface
 {

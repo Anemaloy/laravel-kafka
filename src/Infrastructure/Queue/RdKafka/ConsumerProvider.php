@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Anemaloy\KafkaLocator\Infrastructure\Queue\RdKafka;
 
-use Temo\KafkaLocator\Infrastructure\Queue\ConsumerInterface;
-use Temo\KafkaLocator\Infrastructure\Queue\ConsumerProviderInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\ConsumerInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\ConsumerProviderInterface;
 use RdKafka\Exception;
 use RdKafka\KafkaConsumer;
 

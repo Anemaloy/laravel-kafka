@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Infrastructure\Queue\RdKafka;
+namespace Anemaloy\KafkaLocator\Infrastructure\Queue\RdKafka;
 
-use Temo\KafkaLocator\Infrastructure\Queue\ConsumerInterface;
-use Temo\KafkaLocator\Infrastructure\Queue\Exception\ConsumerException;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\ConsumerInterface;
+use Anemaloy\KafkaLocator\Infrastructure\Queue\Exception\ConsumerException;
 use RdKafka\Exception;
 use RdKafka\KafkaConsumer;
 

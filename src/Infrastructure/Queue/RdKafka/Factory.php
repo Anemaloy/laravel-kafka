@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Temo\KafkaLocator\Infrastructure\Queue\RdKafka;
+namespace Anemaloy\KafkaLocator\Infrastructure\Queue\RdKafka;
 
 use RdKafka\Conf;
 use RdKafka\KafkaConsumer;
